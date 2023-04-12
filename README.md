@@ -14,7 +14,7 @@
 
 笔画版键盘，键道6专属
 
-<img src="C:/Users/Lenovo/iCloudDrive/Study/Java/JavaSEForImage/168129745279613-168130115266714.jpeg" alt="168129745279613" style="zoom:50%;" />
+<img src="C:/Users/Lenovo/iCloudDrive/Study/Java/JavaSEForImage/168129745279613-16813019556685.jpeg" alt="168129745279613" style="zoom:50%;" />
 
 
 
@@ -33,7 +33,7 @@ irime皮肤：[下载地址](https://github.com/wzxmer/irime-theme)
 
 # 二、了解键道
 
-> ![img](C:/Users/Lenovo/iCloudDrive/Study/Java/JavaSEForImage/16812974527951-168130114578412.png)
+> ![16812974527951](C:/Users/Lenovo/iCloudDrive/Study/Java/JavaSEForImage/16812974527951-16813019781217.png)
 >
 > 键位图如上，一图让你学会键道6。
 
