@@ -1,0 +1,15 @@
+patch:
+  app_setting:
+    candidate_tool_bar_is_show_schema_switcher: false
+    sync_iCloud: true
+    play_key_voice_volume: 0.3072115
+    monitor_paste: false
+    theme_name: jd6
+    mark_text: true
+    is_show_candidate_comment: true
+    is_open_word_association: false
+    play_key_voice: false
+    candidate_tool_bar_is_show_emoji: false
+    impact_feedback: false
+    is_show_pop: true
+    candidate_preedit_type: 3
