@@ -26,7 +26,7 @@
 
 功能了解请看：[功能介绍](https://hu0w1jn4xq.feishu.cn/docx/doxcnjFlDmWbCPvBMkVQHJHRhOh) （建议会用以后再看）
 
-#### 推荐手机方案：
+#### 推荐irime皮肤：
 
 笔画版键盘，键道6专属
 
