@@ -1,9 +1,18 @@
 ﻿# Rime schema settings
 # encoding: utf-8
-
+# 方案提供来源：Proud丶Cat  热热佬  一梦浮生
+# 方案反馈邮箱：wzxmer@outlook.com 
+# 方案详细说明：根据原星空键道6进行的功能拓展版本
+# 原星空键道6链接：https://github.com/xkinput/Rime_JD 作者：吅吅大山
+# 教程链接及方案下载：https://github.com/wzxmer/xkjd6-rime-irime
+# 扩展功能有：a自造词，u全拼反查，v二分反查，`万能符，O超级繁体，流式（打句子+自动调频）
+# 特别说明：
+#         此方案默认关闭流式，为原顶功版
+#         顶功情况下无法使用a自造词以及o模式超级繁体
+# 
 schema:
   schema_id: xkjd6
-  name: 空格
+  name: 星空键道·热猫改
   version: "1"
   dependencies:
     - xkjd6cx
@@ -41,7 +50,6 @@ switches:
     states: [ 简体, 繁體 ]
   - name: EN2en
     reset: 1
-
   - options: [_key_']
     states: [造词]
 
@@ -130,8 +138,8 @@ engine:
     - ascii_composer
     - recognizer
     - key_binder    
-    # - lua_processor@topup_processor   #这个注释后不会顶功
-    # - lua_processor@smart_2    #这个注释后不会顶功
+    - lua_processor@topup_processor   #这个注释后不会顶功，使用流式请注释这两行
+    - lua_processor@smart_2    #这个注释后不会顶功，使用流式请注释这两行
     - speller
     - punctuator
     - selector
@@ -190,8 +198,8 @@ translator:
   enable_charset_filter: false
   enable_completion: true
   enable_encoder: true
-  enable_sentence: true
-  enable_user_dict: true
+  enable_sentence: false    #要想使用流式请改为true
+  enable_user_dict: false   #要想使用流式请改为true
   encode_commit_history: true
   max_phrase_length: 6
   initial_quality: 0
@@ -285,16 +293,16 @@ xkjdWXYZ:
   enable_charset_filter: false
   enable_completion: true
   enable_encoder: true
-  enable_sentence: true
-  enable_user_dict: true
+  enable_sentence: false
+  enable_user_dict: false
   encode_commit_history: false
   preedit_format:
     - xform|1|_|
   comment_format:
-    - xform|1|_|
 #    - xform|~||
-  prefix: "a"
-  tips: "〔造词〕"
+    - xform|1|_|
+  # prefix: "a"         #启用流式请取消本行注释
+  # tips: "〔造词〕"     #启用流式请取消本行注释
 xkjdYY:
   __include: /xkjdWXYZ
   tag: xkjdYY

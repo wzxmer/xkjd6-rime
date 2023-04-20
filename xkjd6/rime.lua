@@ -62,49 +62,7 @@ shuzi = require("shuzi")
 
 jisuanqi = require("jisuanqi")
 
-houxuanguolv = require("houxuanguolv")
-
 shijian = require("shijian")
-
-shijian2 = require("shijian2")
-
-
-xuanchonglishi = require("xuanchonglishi")
 
 xuanchongjsq = require("xuanchongjsq")
 
---xuanchongaeuio = require("xuanchongaeuio")
-
-xuanchongaeuio2 = require("xuanchongaeuio2")
-
-bucixuansanma = require("bucixuansanma")
-
-zhumatishikaiguan = require("zhumatishikaiguan")
-
-
---xuanchongaeuio = require("xuanchongaeuio")
-
-
-xuanchongeuioa53 = require("xuanchongeuioa53")
-
-
-bucixuan53 = require("bucixuan53")
-
-
-zaocimoshishangping = require("zaocimoshishangping")
-
-zaocimoshiquchuduoyuhouxuan = require("zaocimoshiquchuduoyuhouxuan")
-
-zaocimoshifencijianchakandaidingci = require("zaocimoshifencijianchakandaidingci")
-
-
--- zztest = require("zztest")
----[[
-local M= require("HXCL")
-get_date = M.getdate
---jpcharset_filter = M.jpcharsetfilter
---long_word_filter = M.longwordfilter
---autocap_filter =M.autocapfilter
-oo_processor = M.ooprocessor
-oo_filter =M.oofilter
---]]

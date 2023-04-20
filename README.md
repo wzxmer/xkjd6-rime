@@ -18,8 +18,6 @@
 
 
 
-方案：[下载地址](https://github.com/wzxmer/irime-theme/tree/master/%E9%94%AE%E9%81%93%E6%96%B9%E6%A1%88)
-
 irime皮肤：[下载地址](https://github.com/wzxmer/irime-theme)
 
 # 一、关于名称
