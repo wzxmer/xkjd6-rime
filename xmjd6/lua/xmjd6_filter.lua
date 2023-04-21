@@ -55,7 +55,7 @@ local function filter(input, env)
 end
 
 local function init(env)
-    env.reverse = ReverseDb("build/xkjd6.extended.reverse.bin")
+    env.reverse = ReverseDb("build/xmjd6.extended.reverse.bin")
 end
 
 return { init = init, func = filter }
