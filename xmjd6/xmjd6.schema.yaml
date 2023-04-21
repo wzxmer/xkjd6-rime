@@ -17,7 +17,7 @@
 # 想使用流式请查看xmjd6.schema.yaml
 schema:
   schema_id: xmjd6
-  name: 星猫键道6
+  name: 星猫键道6.2
   version: "1"
   dependencies:
     - xmjd6cx
