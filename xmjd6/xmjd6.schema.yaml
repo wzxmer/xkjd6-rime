@@ -1,0 +1,396 @@
+﻿# Rime schema settings
+# encoding: utf-8
+# 方案提供来源：Proud丶Cat  热热佬  一梦浮生
+# 方案反馈邮箱：wzxmer@outlook.com 
+# 方案详细说明：根据原星空键道6进行的功能拓展版本
+# 原星空键道6链接：https://github.com/xkinput/Rime_JD 作者：吅吅大山
+# 教程链接及方案下载：https://github.com/wzxmer/xmjd6-rime
+#### 功能有：
+# 630			630个与原词库不冲突的简词（原生自带）
+# 以下为拓展功能：
+# 流式		可以打句子，有词汇自动调频
+# A键			自造词
+# U键			开启全拼反查功能	
+# V键			开启二分反查功能
+# O键			超级繁体(词库的扩展，依旧是键道规则)
+# 注意：默认为顶功开启，流式关闭
+# 想使用流式请查看xkjd6.schema.yaml
+schema:
+  schema_id: xmjd6
+  name: 星猫键道6
+  version: "1"
+  dependencies:
+    - xmjd6cx
+    - pinyin_simp
+    - liangfen
+
+
+# Layout config
+layout:
+  topup:
+    topup_this: "bcdefghjklmnpqrstwxyz"
+    topup_with: "avuio;"
+  algebra:
+    - derive/^[bcdefghjklmnpqrstwxyz;]([bcdefghjklmnpqrstwxyz;][avuio].*)$/`$1/
+    - derive/^([bcdefghjklmnpqrstwxyz;])[bcdefghjklmnpqrstwxyz;]([avuio].*)$/$1`$2/
+    - derive/^([bcdefghjklmnpqrstwxyz;`]{2})[avuio](.*)$/$1`$2/
+    - derive/^([bcdefghjklmnpqrstwxyz;`]{2}[avuio`]).(.*)$/$1`$2/
+    - derive/^([bcdefghjklmnpqrstwxyz;`]{2}[avuio`]{2}).(.*)$/$1`$2/
+    - derive/^([bcdefghjklmnpqrstwxyz;`]{2}[avuio`]{3}).(.*)$/$1`$2/
+    - derive/^([bcdefghjklmnpqrstwxyz;`]{2}[avuio`]{4}).(.*)$/$1`$2/
+    - derive/^([bcdefghjklmnpqrstwxyz;`]{2}[avuio`]{5}).$/$1`/
+    - derive/^[bcdefghjklmnpqrstwxyz;]{2}([avuio`]*)$/``$1/
+
+  patterns:
+    special: "^(?:;?[avuio])[a-z]{0,}"
+
+switches:
+  - name: ascii_mode
+    reset: 0
+    states: [ 中文, 西文 ]
+  - name: full_shape
+    states: [ 半角, 全角 ]
+  - name: jffh
+    reset: 0
+    states: [ 简体, 繁體 ]
+  - name: EN2en
+    reset: 1
+  - options: [_key_']
+    states: [造词]
+
+  - name: emoji_cn   #Emoji开关
+    reset: 0              # 1为默认开启
+    states: [ 关闭emj,开启emj  ]
+  - name: ascii_punct
+    states: [ 。，, ．， ]
+  - name: sbb_hint
+    states: [ 关闭360提示,开启360提示  ]
+    reset: 1
+
+punctuator:
+  import_preset: symbols
+  full_shape:
+    ' ' : { commit: '　' }
+    ',' : { commit: ， }
+    '.' : { commit: 。 }
+    '<' : [ 《, 〈, «, ‹ ]
+    '>' : [ 》, 〉, », › ]
+    '?' : { commit: ？ }
+    ';' : { commit: ； }
+    ':' : { commit: ： }
+    '''' : { pair: [ '‘', '’' ] }
+    '"' : { pair: [ '“', '”' ] }
+    # '/' : { commit: / }
+    '\' : [ 、, ＼ ]
+    '|' : [ ·, ｜, '§', '¦' ]
+    '`' : ｀
+    '~' : ～
+    '!' : { commit: ！ }
+    '@' : [ ＠, ☯ ]
+    '#' : [ ＃, ⌘ ]
+    '%' : [ ％, '°', '℃' ]
+    '$' : [ ￥, '$', '€', '£', '¥', '¢', '¤' ]
+    '^' : { commit: …… }
+    '&' : ＆
+    '*' : [ ＊, ·, ・, ×, ※, ❂ ]
+    '(' : （
+    ')' : ）
+    '-' : －
+    '_' : ——
+    '+' : ＋
+    '=' : [ '=' ]
+    '[' : [ 「, 【, 〔, ［ ]
+    ']' : [ 」, 】, 〕, ］ ]
+    '{' : [ 『, 〖, ｛ ]
+    '}' : [ 』, 〗, ｝ ]
+  half_shape:
+    ',' : { commit: ， }
+    '.' : { commit: 。 }
+    '<' : [ 《, 〈, «, ‹ ]
+    '>' : [ 》, 〉, », › ]
+    # '/' : { commit: / }
+    '?' : { commit: ？ }
+    ';' : { commit: ； }
+    ':' : { commit: ： }
+    '''' : { pair: [ '‘', '’' ] }
+    '"' : { pair: [ '“', '”' ] }
+    '\' : [ 、, '\', ＼ ]
+    '|' : [ ·, '|', ｜, '§', '¦' ]
+    '`' : '`'
+    '~' : [ '~', ～ ]
+    '!' : { commit: ！ }
+    '@' : '@'
+    '#' : '#'
+    '%' : [ '%', ％, '°', '℃' ]
+    '$' : [ ￥, '$', '€', '£', '¥', '¢', '¤' ]
+    '^' : { commit: …… }
+    '&' : '&'
+    '*' : [ '*', ＊, ·, ・, ×, ※, ❂ ]
+    '(' : （
+    ')' : ）
+    '-' : '-'
+    '_' : ——
+    '+' : '+'
+    '=' : [ '=' ]
+    '[' : [ 「, 【, 〔, ［ ]
+    ']' : [ 」, 】, 〕,  ］ ]
+    '{' : [ 『, 〖, ｛ ]
+    '}' : [ 』, 〗, ｝ ]
+
+engine:
+  processors:
+    - lua_processor@xmjdxuanchongjsq
+    - ascii_composer
+    - recognizer
+    - key_binder    
+    - lua_processor@xmjdtopup_processor   #这个注释后不会顶功，使用流式请注释这两行
+    - lua_processor@xmjdsmart_2    #这个注释后不会顶功，使用流式请注释这两行
+    - speller
+    - punctuator
+    - selector
+    - navigator
+    - express_editor
+  segmentors:
+    - ascii_segmentor
+    - matcher
+    - affix_segmentor@pinyin_simp
+    - affix_segmentor@quanpinerfen
+    - affix_segmentor@xmjdWXYZ
+    - abc_segmentor
+    - punct_segmentor
+    - fallback_segmentor
+  translators:
+    - lua_translator@xmjdjisuanqi
+    - lua_translator@xmjdxuanchongjsq
+    - lua_translator@xmjdshijian
+    - punct_translator
+    - table_translator
+    - reverse_lookup_translator
+    - table_translator@custom_phrase
+    - table_translator@xmjdWXYZ
+    - table_translator@xmjdYY
+    - table_translator@xmjdZZ
+    - table_translator@xmjdWW
+    - table_translator@xmjd6_user
+    - lua_translator@number_translator
+    - history_translator@repeat_history
+    - history_translator@repeat_history2
+    - script_translator@quanpinerfen
+    - script_translator@pinyin_simp
+  filters:
+    - simplifier
+    - reverse_lookup_filter@pinyin_simp_lookup
+    - reverse_lookup_filter@quanpinerfen_lookup
+    - simplifier@emoji_cn
+    - simplifier@jffh
+    - simplifier@bmms
+    - simplifier@EN2en
+    - simplifier@ascii_punct
+    - lua_filter@xmjd6_filter
+    - uniquifier
+
+speller:
+  auto_select: false
+  alphabet: "zyxwvutsrqponmlkjihgfedcba;'"
+  initials: "abcdefghijklmnopqrstuvwxyz;'"
+  delimiter: " '"
+  algebra: 
+    - derive/[0-9]$//  #无数字
+    - derive|^;|/|
+
+translator:
+  dictionary: xmjd6.extended
+  enable_charset_filter: false
+  enable_completion: true
+  enable_encoder: true
+  enable_sentence: false    #要想使用流式请改为true
+  enable_user_dict: false   #要想使用流式请改为true
+  encode_commit_history: true
+  max_phrase_length: 6
+  initial_quality: 0
+  comment_format:
+#    - xform|~||
+    - xform/[0-9]//  #无数字
+
+repeat_history:
+  input: i #重复上次上屏内容
+  size: 1
+  initial_quality: 10000
+
+repeat_history2:
+  input: ;f #重复上次上屏内容
+  size: 1
+  initial_quality: 10000
+
+
+EN2en:
+  opencc_config: EN2en.json
+  option_name: EN2en
+
+emoji_cn:
+  opencc_config: emoji.json
+  option_name: emoji_cn
+  tips: all
+
+jffh:
+  opencc_config: s2tw.json
+  option_name: jffh
+
+ascii_punct:
+  option_name: ascii_punct
+  
+bmms:
+  opencc_config: pinyin.json
+  option_name: bmms
+  show_in_comment: true
+  comment_format:
+    - xform/'/ /
+
+pinyin_simp_lookup:
+  tags: [pinyin_simp]
+  dictionary: xmjd6cx #反查其码
+  overwrite_comment: true
+
+pinyin_simp:
+  tag: pinyin_simp
+  dictionary: pinyin_simp
+  enable_sentence: true
+  enable_completion: true
+  enable_user_dict: false
+  prefix: "u"
+  tips: "〔全拼〕"
+
+#↓二分反查方案
+quanpinerfen_lookup:
+  tags: [quanpinerfen]
+  dictionary: xmjd6cx #反查其码
+  overwrite_comment: true
+
+quanpinerfen:
+  tag: quanpinerfen
+  dictionary: liangfen
+  enable_sentence: true
+  enable_completion: true
+  enable_user_dict: false
+  prefix: "v"
+  tips: "〔二分〕"
+
+custom_phrase:
+  dictionary: ""
+  user_dict: custom_phrase
+  db_class: stabledb
+  enable_sentence: false
+
+reverse_lookup:
+  dictionary: xmjd6cx
+  comment_format:
+    - xform/^/〔/
+    - xform/$/〕/
+    - xform/ /, /
+
+xmjdWXYZ:
+  tag: xmjdWXYZ
+  dictionary: xmjd6.extended
+  user_dict: xmjd6_user
+# ↓ 用户词典格式，tabledb（文本） 或 userdb （二进制）。
+  db_class: tabledb
+#  db_class: userdb
+  enable_charset_filter: false
+  enable_completion: true
+  enable_encoder: true
+  enable_sentence: true
+  enable_user_dict: true
+  encode_commit_history: false
+  preedit_format:
+    - xform|1|_|
+  comment_format:
+    - xform|1|_|
+#    - xform|~||
+  prefix: "a"
+  tips: "〔造词〕"
+xmjdYY:
+  __include: /xmjdWXYZ
+  tag: xmjdYY
+  dictionary: xmjd_Y
+  prefix: "~E"
+  tips: "〔Y〕"
+xmjdZZ:
+  __include: /xmjdWXYZ
+  tag: xmjdZZ
+  dictionary: xmjd_Z
+  prefix: "~R"
+  tips: "〔Z〕"
+xmjdWW:
+  __include: /xmjdWXYZ
+  tag: xmjdWW
+  dictionary: xmjd_W
+  prefix: "~T"
+  tips: "〔W〕"
+xmjd6_user:
+  dictionary: ""
+  user_dict: xmjd6_user
+  db_class: stabledb
+  enable_sentence: false
+  enable_completion: true
+  comment_format:
+    - xform/[0-9]//  #无数字
+#    - xform|~||
+  initial_quality: -1
+
+
+
+# punctuator:
+#   import_preset: default
+#   half_shape:
+#     '''' : [ '‘', '’' , '\', '﹨' ]
+
+key_binder:
+#  import_preset: default
+  bindings:
+    - {accept: "Shift+space", send: space, when: composing}   #小狼毫输入法中进行引导造词时的上屏组合键（Shift+space），同文输入法则需要点击候选词上屏
+    # - {accept: "space", send: 1, when: composing}   #引导造词中空格等于首选，空格就丧失了上屏的功能（在引导造词中）
+    - {accept: ";", send: 2, when: composing} #分号次选
+    - { when: always, accept: "Control+period", toggle: ascii_punct }
+    - {accept: minus, send: Page_Up, when: has_menu}
+    - {accept: equal, send: Page_Down, when: has_menu}
+    - {accept: comma, send: Page_Up, when: has_menu}     #<,>翻页功能
+    - {accept: period, send: Page_Down, when: has_menu}   #<。>翻页功能
+    - { when: always, accept: F6, select: .next }
+    - { when: always, accept: F7, toggle: jffh }
+    # - { when: has_menu, accept: "'", send: 2 }
+    - { when: has_menu, accept: "&", toggle: emoji_cn}
+    - { when: has_menu, accept: "^", toggle: bmms}
+    - {accept: KP_0, send: 0, when: composing}
+    - {accept: KP_1, send: 1, when: composing}
+    - {accept: KP_2, send: 2, when: composing}
+    - {accept: KP_3, send: 3, when: composing}
+    - {accept: KP_4, send: 4, when: composing}
+    - {accept: KP_5, send: 5, when: composing}
+    - {accept: KP_6, send: 6, when: composing}
+    - {accept: KP_7, send: 7, when: composing}
+    - {accept: KP_8, send: 8, when: composing}
+    - {accept: KP_9, send: 9, when: composing}
+    - {accept: KP_Subtract, send: -, when: composing}
+    - {accept: KP_Divide, send: /, when: composing}
+    - {accept: KP_Multiply, send: "*", when: has_menu}
+    - {accept: KP_Add, send: +, when: has_menu}
+    - {accept: KP_Decimal, send: ".", when: has_menu}
+      
+recognizer:
+  import_preset: default
+  patterns:
+    reverse_lookup: "[a-z`]*`+[a-z`]*"
+    punct: "^/([0-9]0?|[a-z]+)$"
+    xmjdWXYZ: "^a['/a-z][a-z,./:?!']*'?$"
+    pinyin_simp: "^u[a-z']*'?$"
+    quanpinerfen: "^v[a-z']*'?$"
+    jsq: "^=[^;']+$"
+#        xmjdWXYZ: "^'['/a-z][a-z0-9,./:?!']*'?$"
+
+topup:
+  __include: "layout/topup"
+  min_length: 4
+  max_length: 6
+  auto_clear: true
+  min_length_danzi: 2
+  topup_command: true
