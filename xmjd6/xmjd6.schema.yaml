@@ -201,7 +201,7 @@ speller:
 translator:
   dictionary: xmjd6.extended
   enable_charset_filter: false
-  enable_completion: true
+  enable_completion: true   #候选词提示开关，不需要候选词提示请改false
   enable_encoder: true
   enable_sentence: false    #要想使用流式请改为true
   enable_user_dict: false   #要想使用流式请改为true
