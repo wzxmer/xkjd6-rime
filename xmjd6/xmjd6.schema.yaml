@@ -230,6 +230,8 @@ EN2en:
 emoji_cn:
   opencc_config: emoji.json
   option_name: emoji_cn
+  comment_format:
+    - xform/.*//
   tips: all
 
 jffh:
