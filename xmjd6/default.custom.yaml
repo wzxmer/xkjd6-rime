@@ -1,4 +1,4 @@
 patch:
-  schema_list:
+  schema_list/+:
     - schema: xmjd6
     - schema: luna_pinyin
