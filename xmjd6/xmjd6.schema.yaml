@@ -349,14 +349,14 @@ xmjd6_user:
 key_binder:
 #  import_preset: default
   bindings:
-    - {accept: "Shift+space", send: space, when: composing}   #小狼毫输入法中进行引导造词时的上屏组合键（Shift+space），同文输入法则需要点击候选词上屏
+    # - {accept: "Shift+space", send: space, when: composing}   #小狼毫输入法中进行引导造词时的上屏组合键（Shift+space），同文输入法则需要点击候选词上屏
     # - {accept: "space", send: 1, when: composing}   #引导造词中空格等于首选，空格就丧失了上屏的功能（在引导造词中）
     - {accept: ";", send: 2, when: composing} #分号次选
     - { when: always, accept: "Control+period", toggle: ascii_punct }
     - {accept: minus, send: Page_Up, when: has_menu}
     - {accept: equal, send: Page_Down, when: has_menu}
-    - {accept: comma, send: Page_Up, when: has_menu}     #<,>翻页功能
-    - {accept: period, send: Page_Down, when: has_menu}   #<。>翻页功能
+    # - {accept: comma, send: Page_Up, when: has_menu}     #<,>翻页功能
+    # - {accept: period, send: Page_Down, when: has_menu}   #<。>翻页功能
     - { when: always, accept: F6, select: .next }
     - { when: always, accept: F7, toggle: jffh }
     # - { when: has_menu, accept: "'", send: 2 }
