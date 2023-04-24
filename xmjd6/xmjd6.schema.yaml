@@ -23,6 +23,7 @@ schema:
     - xmjd6cx
     - pinyin_simp
     - liangfen
+    - xmjd6en
 
 
 # Layout config
@@ -154,6 +155,7 @@ engine:
     - ascii_segmentor
     - matcher
     - affix_segmentor@pinyin_simp
+    - affix_segmentor@xmjd6en
     - affix_segmentor@quanpinerfen
     - affix_segmentor@xmjdWXYZ
     - abc_segmentor
@@ -177,6 +179,7 @@ engine:
     - history_translator@repeat_history2
     - script_translator@quanpinerfen
     - script_translator@pinyin_simp
+    - table_translator@xmjd6en
   filters:
     - simplifier
     - reverse_lookup_filter@pinyin_simp_lookup
@@ -261,6 +264,17 @@ pinyin_simp:
   enable_user_dict: false
   prefix: "u"
   tips: "〔全拼〕"
+  
+xmjd6en:
+  tag: xmjd6en
+  dictionary: xmjd6en
+  enable_sentence: true
+  enable_completion: true
+  enable_user_dict: false
+  comment_format:
+    - xform/.*//
+  prefix: "i"
+  tips: "〔单词〕"
 
 #↓二分反查方案
 quanpinerfen_lookup:
@@ -386,6 +400,7 @@ recognizer:
     xmjdWXYZ: "^a['/a-z][a-z,./:?!']*'?$"
     pinyin_simp: "^u[a-z']*'?$"
     quanpinerfen: "^v[a-z']*'?$"
+    xmjd6en: "^i[a-z]*?$"
     jsq: "^=[^;']+$"
 #        xmjdWXYZ: "^'['/a-z][a-z0-9,./:?!']*'?$"
 
