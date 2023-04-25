@@ -231,7 +231,7 @@ EN2en:
   option_name: EN2en
 
 emoji_cn:
-  opencc_config: emoji.json
+  opencc_config: xmjd.emoji.json
   option_name: emoji_cn
   comment_format:
     - xform/.*//
