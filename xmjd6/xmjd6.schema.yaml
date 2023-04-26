@@ -21,10 +21,10 @@ schema:
   name: 星猫键道6.2
   version: "1"
   dependencies:
-    - xmjd6cx
+    - xmjd6.cx
     - pinyin_simp
     - liangfen
-    - xmjd6en
+    - xmjd6.en
 
 
 # Layout config
@@ -254,7 +254,7 @@ bmms:
 
 pinyin_simp_lookup:
   tags: [pinyin_simp]
-  dictionary: xmjd6cx #反查其码
+  dictionary: xmjd6.cx #反查其码
   overwrite_comment: true
 
 pinyin_simp:
@@ -268,7 +268,7 @@ pinyin_simp:
   
 xmjd6en:
   tag: xmjd6en
-  dictionary: xmjd6en
+  dictionary: xmjd6.en
   enable_sentence: true
   enable_completion: true
   enable_user_dict: false
@@ -280,7 +280,7 @@ xmjd6en:
 #↓二分反查方案
 quanpinerfen_lookup:
   tags: [quanpinerfen]
-  dictionary: xmjd6cx #反查其码
+  dictionary: xmjd6.cx #反查其码
   overwrite_comment: true
 
 quanpinerfen:
@@ -299,7 +299,7 @@ custom_phrase:
   enable_sentence: false
 
 reverse_lookup:
-  dictionary: xmjd6cx
+  dictionary: xmjd6.cx
   comment_format:
     - xform/^/〔/
     - xform/$/〕/
@@ -328,19 +328,19 @@ xmjdWXYZ:
 xmjdYY:
   __include: /xmjdWXYZ
   tag: xmjdYY
-  dictionary: xmjd_Y
+  dictionary: xmjd6.Y
   prefix: "~E"
   tips: "〔Y〕"
 xmjdZZ:
   __include: /xmjdWXYZ
   tag: xmjdZZ
-  dictionary: xmjd_Z
+  dictionary: xmjd6.Z
   prefix: "~R"
   tips: "〔Z〕"
 xmjdWW:
   __include: /xmjdWXYZ
   tag: xmjdWW
-  dictionary: xmjd_W
+  dictionary: xmjd6.W
   prefix: "~T"
   tips: "〔W〕"
 xmjd6_user:
