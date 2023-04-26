@@ -8,7 +8,7 @@
 
 # 下载
 
-#### 本教程方案为仓内置版，rime/irime通用，附带rime两个皮肤(上方weasel.custom.yaml文件)，黑白色
+### 注意！！！本教程方案为rime PC端移动端通用（下载xmjd6文件夹），附带rime两个皮肤(上方weasel.custom.yaml文件)，黑白色
 
 #### 功能有：
 
