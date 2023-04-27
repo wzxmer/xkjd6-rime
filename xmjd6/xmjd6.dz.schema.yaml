@@ -146,7 +146,6 @@ engine:
   translators:
     - punct_translator
     - history_translator@repeat_history
-    - table_translator@custom_phrase
     - table_translator@danzi_lookup
     - lua_translator@date_translator
     - lua_translator@time_translator
@@ -226,15 +225,6 @@ danzi_lookup:
     - xform/^/〔/
     - xform/$/〕/
     - xform/ /, /
-
-
-custom_phrase:
-  dictionary: ""
-  user_dict: user_dict
-  db_class: stabledb
-  enable_sentence: false
-  initial_quality: "0"
-
 
 reverse_lookup:
   dictionary: xmjd6.cx

@@ -169,7 +169,6 @@ engine:
     - punct_translator
     - table_translator
     - reverse_lookup_translator
-    - table_translator@custom_phrase
     - table_translator@xmjdWXYZ
     - table_translator@xmjdYY
     - table_translator@xmjdZZ
@@ -291,12 +290,6 @@ quanpinerfen:
   enable_user_dict: false
   prefix: "v"
   tips: "〔二分〕"
-
-custom_phrase:
-  dictionary: ""
-  user_dict: custom_phrase
-  db_class: stabledb
-  enable_sentence: false
 
 reverse_lookup:
   dictionary: xmjd6.cx
