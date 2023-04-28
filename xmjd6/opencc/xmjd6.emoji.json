@@ -4,13 +4,13 @@
     "type": "mmseg",
     "dict": {
       "type": "text",
-      "file": "xmjd.emoji.txt"
+      "file": "xmjd6.emoji.txt"
     }
   },
   "conversion_chain": [{
     "dict": {
       "type": "text",
-      "file": "xmjd.emoji.txt"
+      "file": "xmjd6.emoji.txt"
     }
   }]
 }

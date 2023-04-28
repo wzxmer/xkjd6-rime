@@ -61,7 +61,7 @@ switches:
     states: [造词]
 
   - name: emoji_cn   #Emoji开关
-    reset: 0              # 1为默认开启
+    reset: 1              # 1为默认开启
     states: [ 关闭emj,开启emj  ]
   - name: ascii_punct
     states: [ 。，, ．， ]
@@ -141,7 +141,6 @@ punctuator:
 
 engine:
   processors:
-    - lua_processor@xmjdxuanchongjsq
     - ascii_composer
     - recognizer
     - key_binder    
@@ -164,7 +163,6 @@ engine:
     - fallback_segmentor
   translators:
     - lua_translator@xmjdjisuanqi
-    - lua_translator@xmjdxuanchongjsq
     - lua_translator@xmjdshijian
     - punct_translator
     - table_translator
@@ -174,7 +172,6 @@ engine:
     - table_translator@xmjdZZ
     - table_translator@xmjdWW
     - table_translator@xmjd6_user
-    - lua_translator@number_translator
     - history_translator@repeat_history
     - history_translator@repeat_history2
     - script_translator@quanpinerfen
@@ -231,7 +228,7 @@ EN2en:
   option_name: EN2en
 
 emoji_cn:
-  opencc_config: xmjd.emoji.json
+  opencc_config: xmjd6.emoji.json
   option_name: emoji_cn
   comment_format:
     - xform/.*//

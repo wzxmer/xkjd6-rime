@@ -149,7 +149,6 @@ engine:
     - table_translator@danzi_lookup
     - lua_translator@date_translator
     - lua_translator@time_translator
-    - lua_translator@number_translator
   filters:
     - uniquifier
     - simplifier@emoji_cn
@@ -225,6 +224,7 @@ danzi_lookup:
     - xform/^/〔/
     - xform/$/〕/
     - xform/ /, /
+
 
 reverse_lookup:
   dictionary: xmjd6.cx
