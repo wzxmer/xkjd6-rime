@@ -8,13 +8,9 @@ xmjd6_filter = require("xmjd6_filter")
 xmjdtopup_processor = require("xmjdfor_topup")
 -- 声笔笔简码提示 | 顶功提示 | 补全处理
 xmjdhint_filter = require("xmjdfor_hint")
--- number_translator: 将 `=` + 阿拉伯数字 翻译为大小写汉字
--- 详见 `lua/number.lua`
-xmjdnumber_translator = require("xmjdxnumber")
 -- 用 ' 作为次选键
 xmjdsmart_2 = require("xmjdsmart_2")
 xmjdshuzi = require("xmjdshuzi")
 xmjdjisuanqi = require("xmjdjisuanqi")
 xmjdshijian = require("xmjdshijian")
-xmjdxuanchongjsq = require("xmjdxuanchongjsq")
 

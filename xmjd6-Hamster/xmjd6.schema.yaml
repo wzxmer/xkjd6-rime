@@ -141,7 +141,6 @@ punctuator:
 
 engine:
   processors:
-    - lua_processor@xmjdxuanchongjsq
     - ascii_composer
     - recognizer
     - key_binder    
@@ -164,7 +163,6 @@ engine:
     - fallback_segmentor
   translators:
     - lua_translator@xmjdjisuanqi
-    - lua_translator@xmjdxuanchongjsq
     - lua_translator@xmjdshijian
     - punct_translator
     - table_translator
@@ -174,7 +172,6 @@ engine:
     - table_translator@xmjdZZ
     - table_translator@xmjdWW
     - table_translator@xmjd6_user
-    - lua_translator@number_translator
     - history_translator@repeat_history
     - history_translator@repeat_history2
     - script_translator@quanpinerfen
