@@ -4,7 +4,9 @@
 
 # 说明：本方案为星空键道6.2的功能拓展版，方案名为星猫键道
 
-# 
+#### QQ交流群：[767053451](http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=tHirlU3UbuU-q5CV5PjISeaTNV-eU52L&authKey=g9ePWYWWN7YmYMWk%2FrJ%2BJIgO0oDV0oPRfY3CHZxEzHjgzlzYlLrxFna6CFVCzYNH&noverify=0&group_code=767053451) 
+
+#### TG群：[点我加入](https://t.me/+QrtkrWwmTdRkMWY9)
 
 # 下载
 
