@@ -66,7 +66,7 @@ switches:
   - name: ascii_punct
     states: [ 。，, ．， ]
   - name: sbb_hint
-    states: [ 关闭360提示,开启360提示  ]
+    states: [ 关闭630提示,开启630提示  ]
     reset: 1
 
 punctuator:
