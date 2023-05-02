@@ -195,7 +195,7 @@ V     木       包括：朩
 
 ## 2. 飞键
 
-![20230502133447](C:/Users/Lenovo/iCloudDrive/Study/Java/JavaSEForImage/20230502133447.png)
+![20230502133447](image/20230502133447.png)
 
 > ZH有两个，Q键称为外侧，F键为内侧。CH同理
 
