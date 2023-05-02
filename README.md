@@ -195,9 +195,9 @@ V     木       包括：朩
 
 ## 2. 飞键
 
-![img](image/16812974527969.png)
+![20230502133447](C:/Users/Lenovo/iCloudDrive/Study/Java/JavaSEForImage/20230502133447.png)
 
-> ZH有两个，Q键称为外侧，F键为内侧。
+> ZH有两个，Q键称为外侧，F键为内侧。CH同理
 
 表中的意思是说，我们以音韵的形式打字，韵母 ai 、ao 、e 的情况，Q还是F，都可以，只有前面两行的韵母需要区分。
 
@@ -207,13 +207,13 @@ V     木       包括：朩
 
 Q键快速记忆，a长e长是Q，u、un是Q。
 
-> 只记Q键，其余要用ZH就是F
+> 只记Q键，其余要用ZH就是F，ch也同理。
 
 举例：
 
 ​		四字成语，茁壮成长，zhuo zhuang cheng zhang ，音码 ffjq 
 
-​		拆解：韵母a开头的只有ang，a长为Q，其余f。
+​		拆解：韵母a开头的只有ang、eng，a长为Q，其余f，e长为 j，其余为W。
 
 # 四、双码字根补充
 
