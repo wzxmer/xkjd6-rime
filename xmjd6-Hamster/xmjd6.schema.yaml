@@ -64,11 +64,14 @@ switches:
     reset: 1              # 1为默认开启
     states: [ 关闭emj,开启emj  ]
   - name: ascii_punct
-    states: [ 。，, ．， ]
+    reset: 0         
+    states: [ 。，, ．， ]  #0为全角，1为半角
   - name: sbb_hint
-    states: [ 关闭630提示,开启630提示  ]
     reset: 1
-
+    states: [ 关闭630提示,开启630提示  ]
+  - name: zhuma_hint
+    reset: 1
+    states: [ 关闭逐码提示,开启逐码提示 ]
 punctuator:
   import_preset: symbols
   full_shape:
