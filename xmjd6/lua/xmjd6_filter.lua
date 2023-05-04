@@ -35,22 +35,29 @@ end
 local function filter(input, env)
     local is_danzi = env.engine.context:get_option('danzi_mode')
     local is_on = env.engine.context:get_option('sbb_hint')
+    local zhuma_on = env.engine.context:get_option('zhuma_hint')
     local first = true
     local input_text = env.engine.context.input
     local no_commit = (input_text:len() < 4 and input_text:match("^[bcdefghjklmnpqrstwxyz]+$")) or (input_text:match("^[avuio]+$"))
     for cand in input:iter() do
-        -- if first and no_commit and cand.type ~= 'completion' then
-        if first and no_commit then
-            commit_hint(cand)
-        end
-       
-        first = false
-        if not is_danzi or danzi(cand) then
-            if is_on then
-            hint(cand, env.engine.context, env.reverse)
+		if zhuma_on then
+			-- if first and no_commit and cand.type ~= 'completion' then
+			if first and no_commit then
+				commit_hint(cand)
+			end
+			
+			first = false
+            if not is_danzi or danzi(cand) then
+                if is_on then
+                    hint(cand, env.engine.context, env.reverse)
+                end
+                yield(cand)
             end
-            yield(cand)
-        end
+        else
+            cand:get_genuine().comment = ''
+			yield(cand)
+		end
+
     end
 end
 

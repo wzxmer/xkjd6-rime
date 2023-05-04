@@ -303,7 +303,7 @@ xmjdWXYZ:
   dictionary: xmjd6.extended
   user_dict: xmjd6_user
 # ↓ 用户词典格式，tabledb（文本） 或 userdb （二进制）。
-  db_class: userdb
+  db_class: tabledb
 #  db_class: userdb
   enable_charset_filter: false
   enable_completion: true
