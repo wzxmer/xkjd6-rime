@@ -69,9 +69,7 @@ switches:
   - name: sbb_hint
     reset: 1
     states: [ 关闭630提示,开启630提示  ]
-  - name: zhuma_hint
-    reset: 1
-    states: [ 关闭逐码提示,开启逐码提示 ]
+#   辅助码开关请往下查找，有注释提示
 punctuator:
   import_preset: symbols
   full_shape:
