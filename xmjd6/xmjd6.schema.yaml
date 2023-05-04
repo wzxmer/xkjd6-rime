@@ -64,11 +64,14 @@ switches:
     reset: 1              # 1为默认开启
     states: [ 关闭emj,开启emj  ]
   - name: ascii_punct
-    states: [ 。，, ．， ]
+    reset: 0         
+    states: [ 。，, ．， ]  #0为全角，1为半角
   - name: sbb_hint
-    states: [ 关闭360提示,开启360提示  ]
     reset: 1
-
+    states: [ 关闭630提示,开启630提示  ]
+  - name: zhuma_hint
+    reset: 1
+    states: [ 关闭逐码提示,开启逐码提示 ]
 punctuator:
   import_preset: symbols
   full_shape:
@@ -357,6 +360,7 @@ key_binder:
     # - {accept: "Shift+space", send: space, when: composing}   #小狼毫输入法中进行引导造词时的上屏组合键（Shift+space），同文输入法则需要点击候选词上屏
     # - {accept: "space", send: 1, when: composing}   #引导造词中空格等于首选，空格就丧失了上屏的功能（在引导造词中）
     - {accept: ";", send: 2, when: composing} #分号次选
+    - {accept: apostrophe, send: 3, when: has menu} #撇号三选/左斜杠键
     - { when: always, accept: "Control+period", toggle: ascii_punct }
     - {accept: minus, send: Page_Up, when: has_menu}
     - {accept: equal, send: Page_Down, when: has_menu}
