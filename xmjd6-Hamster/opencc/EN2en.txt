@@ -1,5 +1,4 @@
 BIANGBIANG	biangbiang
-WIFI	wifi
 EMMMMMMM	emmmmmmm
 ENNNN	ennnn
 EXCEL	excel
@@ -41,7 +40,7 @@ SOHO公寓	soho公寓
 ANDROID	android
 APK	apk
 APP	app
-THX	thx
+THX	Thx
 TIM	tim
 TAPTAP	TapTap
 WELCOME	welcome
