@@ -56,16 +56,13 @@ switches:
     reset: 0
     states: [ 简体, 繁體 ]
   - name: EN2en
-    reset: 1
+    reset: 0
   - options: [_key_']
     states: [造词]
 
   - name: emoji_cn   #Emoji开关
     reset: 1              # 1为默认开启
     states: [ 关闭emj,开启emj  ]
-  - name: ascii_punct
-    reset: 0         
-    states: [ 。，, ．， ]  #0为全角，1为半角
   - name: sbb_hint
     reset: 1
     states: [ 关闭630提示,开启630提示  ]
