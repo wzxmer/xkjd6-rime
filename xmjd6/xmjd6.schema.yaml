@@ -48,7 +48,7 @@ layout:
 
 switches:
   - name: ascii_mode
-    reset: 1
+    reset: 0
     states: [ 中文, 西文 ]
   - name: ascii_punct
     reset: 0
@@ -64,7 +64,7 @@ switches:
     reset: 1              # 1为默认开启
     states: [ 关闭emj,开启emj  ]
   - name: sbb_hint
-    reset: 0
+    reset: 1
     states: [ 关闭630提示,开启630提示  ]
   # - name: full_shape
   #   states: [ 半角, 全角 ]
