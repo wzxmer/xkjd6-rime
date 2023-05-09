@@ -3,39 +3,17 @@
 [TOC]
 
 # 说明：本方案为星空键道6.2的功能拓展版，方案名为星猫键道
-# IOS输入法app推荐：仓输入法  iRime
+# IOS输入法app推荐：仓输入法  iRime  安卓推荐：同文
 
 #### QQ交流群：[767053451](http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=tHirlU3UbuU-q5CV5PjISeaTNV-eU52L&authKey=g9ePWYWWN7YmYMWk%2FrJ%2BJIgO0oDV0oPRfY3CHZxEzHjgzlzYlLrxFna6CFVCzYNH&noverify=0&group_code=767053451) 
 
 #### TG群：[点我加入](https://t.me/+QrtkrWwmTdRkMWY9)
 
-# 下载
+# 方案下载
 
-### 注意！！！本教程方案为rime PC端移动端通用（下载xmjd6文件夹），附带rime两个皮肤(上方weasel.custom.yaml文件)，黑白色
+### 注意！！！本教程方案为PC端移动端通用（下载xmjd6文件夹或下载[ releases](https://github.com/wzxmer/xkjd6-rime/releases)），附带rime两个皮肤(上方weasel.custom.yaml文件)黑白色
 
-#### 功能有：
-
-#### 630			630个与原词库不冲突的简词（原生自带）
-
-#### 以下为拓展功能：
-
-#### 			流式			可以打句子，有词汇自动调频
-
-#### 			A键			自造词
-
-#### 			U键			开启全拼反查功能<拼音查全码，新增笔画提示>	
-
-#### 			i 键			开启英文联想输入	
-
-#### 			V键			开启二分反查功能<拼音拆分文字可查全码>
-
-#### 			O键			超级繁体(词库的扩展，依旧是键道规则)
-
-#### 		注意：默认为顶功开启，流式关闭
-
-#### 					想使用流式，想打开emoji表情，想关闭辅助码，都请查看xmjd6.schema.yaml功能开关，有注释提示
-
-
+#### 					方案说明：[点我](https://github.com/wzxmer/xkjd6-rime/tree/main/xmjd6#readme)
 
 #### 推荐irime皮肤：
 
