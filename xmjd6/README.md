@@ -10,7 +10,10 @@
 # 方案名为：星猫键道
 
 # 原星空键道6链接：https://github.com/xkinput/Rime_JD 作者：吅吅大山
-# 简易教程及方案下载：https://github.com/wzxmer/xkjd6-rime
+## 简易教程及方案下载：https://github.com/wzxmer/xkjd6-rime
+
+### 					想使用流式，想关闭emoji表情，想关闭提示词，都请查看xmjd6.custom.yaml功能开关配置文件，有注释提示
+
 #### 功能有：
 
 #### 630			630个与原词库不冲突的简词（原生自带）
@@ -30,5 +33,3 @@
 #### 			O键			超级繁体(词库的扩展，依旧是键道规则)
 
 #### 		注意：默认为顶功开启，流式关闭
-
-#### 					想使用流式，想打开emoji表情，想关闭辅助码，都请查看xmjd6.schema.yaml功能开关，有注释提示
