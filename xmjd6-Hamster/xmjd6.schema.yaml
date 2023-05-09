@@ -48,25 +48,27 @@ layout:
 
 switches:
   - name: ascii_mode
-    reset: 0
+    reset: 1
     states: [ 中文, 西文 ]
-  - name: full_shape
-    states: [ 半角, 全角 ]
+  - name: ascii_punct
+    reset: 0
+    states: [ 全角, 半角 ]
   - name: jffh
     reset: 0
     states: [ 简体, 繁體 ]
   - name: EN2en
-    reset: 0
+    reset: 1
   - options: [_key_']
     states: [造词]
-
   - name: emoji_cn   #Emoji开关
     reset: 1              # 1为默认开启
     states: [ 关闭emj,开启emj  ]
   - name: sbb_hint
-    reset: 1
+    reset: 0
     states: [ 关闭630提示,开启630提示  ]
-#   辅助码开关请往下查找，有注释提示
+  # - name: full_shape
+  #   states: [ 半角, 全角 ]
+#   提示码开关请往下查找，有注释提示
 punctuator:
   import_preset: symbols
   full_shape:
