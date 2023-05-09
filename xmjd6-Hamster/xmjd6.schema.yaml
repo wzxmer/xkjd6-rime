@@ -62,7 +62,7 @@ switches:
     states: [造词]
   - name: emoji_cn   #Emoji开关
     reset: 1              # 1为默认开启
-    states: [ 关闭emj,开启emj  ]
+    states: [ 关闭emoji,开启emoji  ]
   - name: sbb_hint
     reset: 1
     states: [ 关闭630提示,开启630提示  ]
