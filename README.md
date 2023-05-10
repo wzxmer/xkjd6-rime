@@ -3,17 +3,18 @@
 [TOC]
 
 # 说明：本方案为星空键道6.2的功能拓展版，方案名为星猫键道
+
+## 详细说明--->[点我查看](https://github.com/wzxmer/xkjd6-rime/tree/main/xmjd6#readme)
+
 # IOS输入法app推荐：仓输入法  iRime  安卓推荐：同文
 
 #### QQ交流群：[767053451](http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=tHirlU3UbuU-q5CV5PjISeaTNV-eU52L&authKey=g9ePWYWWN7YmYMWk%2FrJ%2BJIgO0oDV0oPRfY3CHZxEzHjgzlzYlLrxFna6CFVCzYNH&noverify=0&group_code=767053451) 
 
 #### TG群：[点我加入](https://t.me/+QrtkrWwmTdRkMWY9)
 
-# 方案下载
+# 方案下载：[下载](https://github.com/wzxmer/xkjd6-rime/releases/)
 
-### 注意！！！本教程方案为PC端移动端通用（下载xmjd6文件夹或下载[ releases](https://github.com/wzxmer/xkjd6-rime/releases)），附带rime两个皮肤(上方weasel.custom.yaml文件)黑白色
-
-#### 					方案说明：[点我](https://github.com/wzxmer/xkjd6-rime/tree/main/xmjd6#readme)
+### 注意！本教程方案为PC端移动端通用，rime两个皮肤(上方weasel.custom.yaml文件自行单独下载)黑白色
 
 #### 推荐irime皮肤：
 
