@@ -13,4 +13,4 @@ xmjdsmart_2 = require("xmjdsmart_2")
 xmjdshuzi = require("xmjdshuzi")
 xmjdjisuanqi = require("xmjdjisuanqi")
 xmjdshijian = require("xmjdshijian")
-
+xmjdzmtskg = require("xmjdzmtskg")
