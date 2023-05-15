@@ -261,6 +261,11 @@ pinyin_simp:
   enable_user_dict: false
   prefix: "u"
   tips: "〔全拼〕"
+  preedit_format:
+    - xform/^u(.+)/$1/
+    - xform/([nl])v/$1ü/
+    - xform/([nl])ue/$1üe/
+    - xform/([jqxy])v/$1u/
   
 xmjd6en:
   tag: xmjd6en
