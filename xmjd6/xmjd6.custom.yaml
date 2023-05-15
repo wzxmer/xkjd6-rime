@@ -8,7 +8,7 @@ patch:
   switches/@2/reset: 0     #[ 简体, 繁體 ]
   switches/@5/reset: 1     #[ 关闭emoji, 开启emoji ]
   switches/@6/reset: 1     #[ 关闭630提示, 开启630提示  ]
-  switches/@7/reset: 0     #[ 关闭提示词, 开启提示词  ]
+  switches/@7/reset: 1     #[ 关闭提示词, 开启提示词  ]
 
 
   #流式功能配置，想使用流式请取消以下注释，取消注释删掉 # 即可
