@@ -232,7 +232,7 @@ emoji_cn:
   opencc_config: xmjd6.emoji.json
   option_name: emoji_cn
   comment_format:
-    - xform/.*//
+    - xform/.*/ /
   tips: all
 
 jffh:
