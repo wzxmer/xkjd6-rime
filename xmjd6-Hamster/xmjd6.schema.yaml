@@ -192,8 +192,8 @@ engine:
 
 speller:
   auto_select: false
-  alphabet: "zyxwvutsrqponmlkjihgfedcba;'"
-  initials: "abcdefghijklmnopqrstuvwxyz;'"
+  alphabet: "zyxwvutsrqponmlkjihgfedcba;"
+  initials: "abcdefghijklmnopqrstuvwxyz;"
   delimiter: " '"
   algebra: 
     - derive/[0-9]$//  #无数字
