@@ -3,6 +3,7 @@ patch:
   schema/name: 星猫键道6.2     #修改方案名称，显示在空格上的名字
   speller/auto_select: false    #自动上屏开关，默认关
   translator/enable_completion: true   #提示词开关
+  hint_text: ''    #顶功提示符
   #                         0选择第一个,1选择第二个
   switches/@0/reset: 0     #[ 中文, 西文 ]
   switches/@1/reset: 0     #[ 全角, 半角 ]
