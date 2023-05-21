@@ -260,13 +260,13 @@ pinyin_simp:
   enable_sentence: true
   enable_completion: true
   enable_user_dict: false
-  prefix: "u"
-  tips: "〔全拼〕"
   preedit_format:
     - xform/^u(.+)/$1/
     - xform/([nl])v/$1ü/
     - xform/([nl])ue/$1üe/
     - xform/([jqxy])v/$1u/
+  prefix: "u"
+  tips: "〔全拼〕"
   
 xmjd6en:
   tag: xmjd6en
