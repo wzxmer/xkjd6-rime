@@ -145,8 +145,8 @@ engine:
     - ascii_composer
     - recognizer
     - key_binder    
-    - lua_processor@xmjdtopup_processor   #这个注释后不会顶功，使用流式请注释这两行
     - lua_processor@xmjdsmart_2    #这个注释后不会顶功，使用流式请注释这两行
+    - lua_processor@xmjdtopup_processor   #这个注释后不会顶功，使用流式请注释这两行
     - speller
     - punctuator
     - selector
@@ -192,8 +192,8 @@ engine:
 
 speller:
   auto_select: false
-  alphabet: "zyxwvutsrqponmlkjihgfedcba;"
-  initials: "abcdefghijklmnopqrstuvwxyz;"
+  alphabet: "zyxwvutsrqponmlkjihgfedcba;'"
+  initials: "abcdefghijklmnopqrstuvwxyz;'"
   delimiter: " '"
   algebra: 
     - derive/[0-9]$//  #无数字
@@ -321,6 +321,7 @@ xmjdWXYZ:
 #    - xform|~||
   prefix: "a"
   tips: "〔造词〕"
+  
 xmjdYY:
   __include: /xmjdWXYZ
   tag: xmjdYY

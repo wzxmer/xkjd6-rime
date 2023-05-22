@@ -25,6 +25,10 @@ local function processor(key_event, env)
     end
 
     if not context:get_selected_candidate() then
+        if context.input:len() <= 1 then
+            -- 分号引导的符号需要交给下一个处理器
+            return kNoop
+        end
         context:clear()
     else
         context:commit()
