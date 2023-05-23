@@ -6,8 +6,6 @@
 xmjd6_filter = require("xmjd6_filter")
 -- 顶功处理器
 xmjdtopup_processor = require("xmjdfor_topup")
--- 声笔笔简码提示 | 顶功提示 | 补全处理
-xmjdhint_filter = require("xmjdfor_hint")
 -- 用 ' 作为次选键
 xmjdsmart_2 = require("xmjdsmart_2")
 xmjdshuzi = require("xmjdshuzi")
