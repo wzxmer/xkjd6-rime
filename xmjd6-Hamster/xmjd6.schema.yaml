@@ -56,8 +56,6 @@ switches:
   - name: jffh
     reset: 0
     states: [ 简体, 繁體 ]
-  - name: EN2en
-    reset: 1
   - options: [_key_']
     states: [造词]
   - name: emoji_cn   #Emoji开关
@@ -185,7 +183,6 @@ engine:
     - simplifier@emoji_cn
     - simplifier@jffh
     - simplifier@bmms
-    - simplifier@EN2en
     - simplifier@ascii_punct
     - lua_filter@xmjd6_filter
     - uniquifier
@@ -222,11 +219,6 @@ repeat_history2:
   input: ;f #重复上次上屏内容
   size: 1
   initial_quality: 10000
-
-
-EN2en:
-  opencc_config: EN2en.json
-  option_name: EN2en
 
 emoji_cn:
   opencc_config: xmjd6.emoji.json
