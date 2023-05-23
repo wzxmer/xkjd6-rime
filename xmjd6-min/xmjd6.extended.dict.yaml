@@ -1,0 +1,43 @@
+# Rime dictionary
+# encoding: utf-8
+#
+# 键道6 扩展词库控制
+---
+name: xmjd6.extended
+version: "Q1"
+sort: original 
+use_preset_vocabulary: false
+columns:
+  - text
+  - code
+  - stem
+  - weight
+encoder:
+  rules:
+    - length_equal: 2
+      formula: "AaAbBaBb"
+    - length_equal: 3
+      formula: "AaBaCaAc"
+    - length_in_range: [4, 99]
+      formula: "AaBaCaZa"
+import_tables:
+# ---------------------------------------
+# 下列为扩展 可选码表内容：
+# 说明：内置词库在当前目录下
+# =======================================
+### 内置词库@吅吅大山
+# ---------------------------------------
+# 扩展：词组
+  - xmjd6
+# ---------------------------------------
+# 扩展：符号
+  - xmjd6.fuhao
+# ---------------------------------------
+## 扩展：用户词库
+  - xmjd6.user
+# =======================================
+
+## 自定义词库：自己做的词库，自己维护
+## 扩展：附加词语
+  #- xmjd6.fjcy----兰佬提供已合并到zidingyi
+  - xmjd6.zidingyi
