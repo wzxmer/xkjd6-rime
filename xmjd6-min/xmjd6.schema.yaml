@@ -156,7 +156,6 @@ engine:
     - affix_segmentor@pinyin_simp
     - affix_segmentor@xmjd6en
     - affix_segmentor@quanpinerfen
-    - affix_segmentor@xmjdWXYZ
     - abc_segmentor
     - punct_segmentor
     - fallback_segmentor
@@ -166,10 +165,6 @@ engine:
     - punct_translator
     - table_translator
     - reverse_lookup_translator
-    - table_translator@xmjdWXYZ
-    - table_translator@xmjdYY
-    - table_translator@xmjdZZ
-    - table_translator@xmjdWW
     - table_translator@xmjd6_user
     - history_translator@repeat_history
     - history_translator@repeat_history2
@@ -326,12 +321,10 @@ recognizer:
   patterns:
     reverse_lookup: "[a-z`]*`+[a-z`]*"
     punct: "^/([0-9]0?|[a-z]+)$"
-    xmjdWXYZ: "^a['/a-z][a-z,./:?!']*'?$"
     pinyin_simp: "^u[a-z']*'?$"
     quanpinerfen: "^v[a-z']*'?$"
     xmjd6en: "^i[a-z]*?$"
     jsq: "^=[^;']+$"
-#        xmjdWXYZ: "^'['/a-z][a-z0-9,./:?!']*'?$"
 
 topup:
   __include: "layout/topup"
