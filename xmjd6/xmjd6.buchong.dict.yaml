@@ -105,6 +105,7 @@ sort: original
 # 一简三重
 疫	y
 期	q
+鸡	j
 # 二简二重
 叭	bs
 氏	ek
@@ -158,7 +159,7 @@ sort: original
 国民生产总值	gdp
 # 补充提示
 乛	a
-	a
+𠃌	a
 氵	a
 氺	a
 乚	a
@@ -174,7 +175,6 @@ sort: original
 一	v
 朩	v
 # 部首偏旁
-𠃌	a
 巛	aaa
 毌	aaiv
 糸	aaoiuo
