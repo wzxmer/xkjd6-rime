@@ -6,7 +6,7 @@ patch:
   hint_text: ''    #顶功提示符
   #                         0选择第一个,1选择第二个
   switches/@0/reset: 0     #[ 中文, 西文 ]
-  switches/@1/reset: 1     #[ 全角, 半角 ]
+  switches/@1/reset: 0     #[ 全角, 半角 ]
   switches/@2/reset: 0     #[ 简体, 繁體 ]
   switches/@4/reset: 1     #[ 关闭表情, 开启表情 ]
   switches/@5/reset: 1     #[ 关闭630提示, 开启630提示  ]
