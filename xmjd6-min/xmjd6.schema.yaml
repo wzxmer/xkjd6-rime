@@ -165,7 +165,6 @@ engine:
     - punct_translator
     - table_translator
     - reverse_lookup_translator
-    - table_translator@xmjd6_user
     - history_translator@repeat_history
     - history_translator@repeat_history2
     - script_translator@quanpinerfen
@@ -177,7 +176,6 @@ engine:
     - reverse_lookup_filter@quanpinerfen_lookup
     - simplifier@emoji_cn
     - simplifier@jffh
-    - simplifier@bmms
     - simplifier@ascii_punct
     - lua_filter@xmjd6_filter
     - uniquifier
@@ -228,13 +226,6 @@ jffh:
 
 ascii_punct:
   option_name: ascii_punct
-  
-bmms:
-  opencc_config: pinyin.json
-  option_name: bmms
-  show_in_comment: true
-  comment_format:
-    - xform/'/ /
 
 pinyin_simp_lookup:
   tags: [pinyin_simp]
@@ -299,7 +290,6 @@ key_binder:
     - { when: always, accept: F6, select: .next }
     - { when: always, accept: F7, toggle: jffh }
     - { when: has_menu, accept: "&", toggle: emoji_cn}
-    - { when: has_menu, accept: "^", toggle: bmms}
     - {accept: KP_0, send: 0, when: composing}
     - {accept: KP_1, send: 1, when: composing}
     - {accept: KP_2, send: 2, when: composing}
