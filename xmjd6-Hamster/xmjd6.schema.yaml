@@ -70,7 +70,74 @@ switches:
   #提示词开关在下方，请根据注释查找
 punctuator:
   import_preset: symbols
-  
+  full_shape:
+    ' ' : { commit: '　' }
+    ',' : { commit: ， }
+    '.' : { commit: 。 }
+    '<' : [ 《, 〈, «, ‹ ]
+    '>' : [ 》, 〉, », › ]
+    '?' : { commit: ？ }
+    ';' : { commit: ； }
+    ':' : { commit: ： }
+    '''' : { pair: [ '‘', '’' ] }
+    '"' : { pair: [ '“', '”' ] }
+    # '/' : { commit: / }
+    '\' : [ 、, ＼ ]
+    '|' : [ ·, ｜, '§', '¦' ]
+    '`' : ｀
+    '~' : ～
+    '!' : { commit: ！ }
+    '@' : [ ＠, ☯ ]
+    '#' : [ ＃, ⌘ ]
+    '%' : [ ％, '°', '℃' ]
+    '$' : [ ￥, '$', '€', '£', '¥', '¢', '¤' ]
+    '^' : { commit: …… }
+    '&' : ＆
+    '*' : [ ＊, ·, ・, ×, ※, ❂ ]
+    '(' : （
+    ')' : ）
+    '-' : －
+    '_' : ——
+    '+' : ＋
+    '=' : [ '=' ]
+    '[' : [ 「, 【, 〔, ［ ]
+    ']' : [ 」, 】, 〕, ］ ]
+    '{' : [ 『, 〖, ｛ ]
+    '}' : [ 』, 〗, ｝ ]
+  half_shape:
+    ',' : { commit: ， }
+    '.' : { commit: 。 }
+    '<' : [ 《, 〈, «, ‹ ]
+    '>' : [ 》, 〉, », › ]
+    # '/' : { commit: / }
+    '?' : { commit: ？ }
+    ';' : { commit: ； }
+    ':' : { commit: ： }
+    '''' : { pair: [ '‘', '’' ] }
+    '"' : { pair: [ '“', '”' ] }
+    '\' : [ 、, '\', ＼ ]
+    '|' : [ ·, '|', ｜, '§', '¦' ]
+    '`' : '`'
+    '~' : [ '~', ～ ]
+    '!' : { commit: ！ }
+    '@' : '@'
+    '#' : '#'
+    '%' : [ '%', ％, '°', '℃' ]
+    '$' : [ ￥, '$', '€', '£', '¥', '¢', '¤' ]
+    '^' : { commit: …… }
+    '&' : '&'
+    '*' : [ '*', ＊, ·, ・, ×, ※, ❂ ]
+    '(' : （
+    ')' : ）
+    '-' : '-'
+    '_' : ——
+    '+' : '+'
+    '=' : [ '=' ]
+    '[' : [ 「, 【, 〔, ［ ]
+    ']' : [ 」, 】, 〕,  ］ ]
+    '{' : [ 『, 〖, ｛ ]
+    '}' : [ 』, 〗, ｝ ]
+
 engine:
   processors:
     - ascii_composer
@@ -115,7 +182,6 @@ engine:
     - reverse_lookup_filter@quanpinerfen_lookup
     - simplifier@emoji_cn
     - simplifier@jffh
-    - simplifier@bmms
     - simplifier@ascii_punct
     - lua_filter@xmjd6_filter
     - uniquifier
@@ -166,13 +232,6 @@ jffh:
 
 ascii_punct:
   option_name: ascii_punct
-  
-bmms:
-  opencc_config: pinyin.json
-  option_name: bmms
-  show_in_comment: true
-  comment_format:
-    - xform/'/ /
 
 pinyin_simp_lookup:
   tags: [pinyin_simp]
@@ -294,7 +353,6 @@ key_binder:
     - { when: always, accept: F6, select: .next }
     - { when: always, accept: F7, toggle: jffh }
     - { when: has_menu, accept: "&", toggle: emoji_cn}
-    - { when: has_menu, accept: "^", toggle: bmms}
     - {accept: KP_0, send: 0, when: composing}
     - {accept: KP_1, send: 1, when: composing}
     - {accept: KP_2, send: 2, when: composing}
