@@ -274,6 +274,7 @@ quanpinerfen:
 
 reverse_lookup:
   dictionary: xmjd6.cx
+  enable_completion: true
   comment_format:
     - xform/^/〔/
     - xform/$/〕/
