@@ -280,6 +280,7 @@ quanpinerfen:
 
 reverse_lookup:
   dictionary: xmjd6.cx
+  enable_completion: true # 逐鍵顯示
   comment_format:
     - xform/^/〔/
     - xform/$/〕/
