@@ -56,14 +56,17 @@ switches:
   - name: jffh
     reset: 0
     states: [ 简体, 繁體 ]
-  - options: [_key_']
-    states: [造词]
   - name: emoji_cn   #Emoji开关
     reset: 1              # 1为默认开启
     states: [ 关闭表情,开启表情  ]
+  - name: embeded_cands
+    reset: 0
+    states: [普通, 嵌入候选]
   - name: sbb_hint
-    reset: 1
-    states: [ 关闭630提示,开启630提示  ]
+    reset: 0
+    states: [ 关闭630提示,开启630提示 ]
+  - options: [_key_']
+    states: [万能符]
 
   # - name: full_shape
   #   states: [ 半角, 全角 ]
@@ -184,6 +187,7 @@ engine:
     - simplifier@jffh
     - simplifier@ascii_punct
     - lua_filter@xmjd6_filter
+    - lua_filter@embeded_cands  #内嵌
     - uniquifier
 
 speller:
@@ -338,10 +342,16 @@ xmjd6_user:
 
 
 
-# punctuator:
-#   import_preset: default
-#   half_shape:
-#     '''' : [ '‘', '’' , '\', '﹨' ]
+# 嵌入候選的顯示配置  @饼干大佬提供 https://github.com/lost-melody/rime-smyh/tree/main/schema/lua/smyh
+# 默認顯示效果爲:
+# 宇[浩¹]iwl ~淍² ~泃³
+embeded_cands:
+  option_name: embeded_cands                               # 嵌入候選開關
+  index_indicators: [ ¹, ², ³, ⁴, ⁵, ⁶, ⁷, ⁸, ⁹, ⁰ ]       # 嵌入候選的序號顯示格式
+  first_format: "${Stash}[${候選}${Seq}]${Code}${Comment}" # 首選的渲染格式
+  next_format: "${Stash}${候選}${Seq}${Comment}"           # 非首選的渲染格式
+  separator: " "                                           # 候選之間的分隔符
+  stash_placeholder: "~"  
 
 key_binder:
 #  import_preset: default
