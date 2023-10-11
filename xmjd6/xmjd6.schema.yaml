@@ -65,8 +65,6 @@ switches:
   - name: sbb_hint
     reset: 0
     states: [ 关闭630提示,开启630提示 ]
-  - options: [_key_']
-    states: [万能符]
 
   # - name: full_shape
   #   states: [ 半角, 全角 ]
@@ -374,7 +372,7 @@ key_binder:
     - {accept: KP_7, send: 7, when: composing}
     - {accept: KP_8, send: 8, when: composing}
     - {accept: KP_9, send: 9, when: composing}
-    - {accept: KP_Subtract, send: -, when: composing}
+    - {accept: KP_Subtract, send: "-", when: composing}
     - {accept: KP_Divide, send: /, when: composing}
     - {accept: KP_Multiply, send: "*", when: has_menu}
     - {accept: KP_Add, send: +, when: has_menu}
