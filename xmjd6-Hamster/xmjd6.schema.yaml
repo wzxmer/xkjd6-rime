@@ -56,8 +56,6 @@ switches:
   - name: jffh
     reset: 0
     states: [ 简体, 繁體 ]
-  - options: [_key_']
-    states: [造词]
   - name: emoji_cn   #Emoji开关
     reset: 1              # 1为默认开启
     states: [ 关闭表情,开启表情  ]
