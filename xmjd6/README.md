@@ -1,18 +1,19 @@
-# 本方案PC+手机通用！
-
 # 本方案已被授权！
 
-# 方案提供来源：Proud丶Cat  热热佬  一梦浮生
+##### 方案提供来源：Proud丶Cat  热热佬  一梦浮生
 
-# 方案反馈邮箱：wzxmer@outlook.com 
-# 方案详细说明：根据原星空键道6.2进行的功能拓展版本
+## 方案反馈邮箱：wzxmer@outlook.com 
+#### 方案详细说明：根据原[星空键道](https://github.com/xkinput/Rime_JD)6.2进行的功能拓展版本
 
-# 方案名为：星猫键道
+#### 方案名为：星猫键道
 
-# 原星空键道6链接：https://github.com/xkinput/Rime_JD 作者：吅吅大山
-## 简易教程及方案下载：https://github.com/wzxmer/xkjd6-rime
+# 此仓库版本已封版，停止更新
 
-### 					想使用流式，想关闭emoji表情，想关闭提示词，都请查看xmjd6.custom.yaml功能开关配置文件，有注释提示
+# 衍生版为：[天行键](https://github.com/wzxmer/rime-txjx)，[星猫键道百万词库版](https://github.com/hugh7007/xmjd6-rere)
+
+#### 简易教程及方案下载：https://github.com/wzxmer/xkjd6-rime
+
+### 想使用流式，想关闭emoji表情，想关闭提示词，都请查看xmjd6.custom.yaml功能开关配置文件，有注释提示
 
 #### 功能有：
 
