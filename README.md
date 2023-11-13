@@ -6,7 +6,7 @@
 
 # 此仓库版本已封版，停止更新
 
-# 衍生版为：[天行键](https://github.com/wzxmer/rime-txjx)，[星猫键道百万词库版](https://github.com/hugh7007/xmjd6-rere)
+# 衍生版为：[天行键](https://github.com/wzxmer/rime-txjx)和[星猫键道百万词库版](https://github.com/hugh7007/xmjd6-rere)
 
 ### IOS输入法app推荐：仓输入法  (已内置)
 
