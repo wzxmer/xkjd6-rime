@@ -2,11 +2,13 @@
 
 [TOC]
 
-# 说明：本方案为星空键道6.2的功能拓展版，方案名为星猫键道
+### 详细说明--->[点我查看](https://github.com/wzxmer/xkjd6-rime/tree/main/xmjd6#readme)
 
-## 详细说明--->[点我查看](https://github.com/wzxmer/xkjd6-rime/tree/main/xmjd6#readme)
+# 此仓库版本已封版，停止更新
 
-# IOS输入法app推荐：仓输入法  iRime  安卓推荐：同文
+# 衍生版为：[天行键](https://github.com/wzxmer/rime-txjx)，[星猫键道百万词库版](https://github.com/hugh7007/xmjd6-rere)
+
+### IOS输入法app推荐：仓输入法  (已内置)
 
 #### QQ交流群：[767053451](http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=tHirlU3UbuU-q5CV5PjISeaTNV-eU52L&authKey=g9ePWYWWN7YmYMWk%2FrJ%2BJIgO0oDV0oPRfY3CHZxEzHjgzlzYlLrxFna6CFVCzYNH&noverify=0&group_code=767053451) 
 
@@ -14,17 +16,7 @@
 
 # 方案下载：[下载](https://github.com/wzxmer/xkjd6-rime/releases/)
 
-### 注意！本教程方案为PC端移动端通用，rime两个皮肤(上方weasel.custom.yaml文件自行单独下载)黑白色
-
-#### 推荐irime皮肤：
-
-笔画版键盘，键道6专属
-
-<img src="image/168129745279613-16813020633963.jpeg" alt="168129745279613" style="zoom:50%;" />
-
-
-
-irime皮肤：[下载地址](https://github.com/wzxmer/irime-theme)
+### 注意！本教程方案为PC端手机端通用，rime两个皮肤(上方weasel.custom.yaml文件自行单独下载)黑白色
 
 # 一、关于名称
 
