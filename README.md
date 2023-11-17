@@ -4,7 +4,7 @@
 
 ### 详细说明--->[点我查看](https://github.com/wzxmer/xkjd6-rime/tree/main/xmjd6#readme)
 
-# 此仓库版本已封版，停止更新
+# 本仓库方案文件已停止更新，分为两版：
 
 # 衍生版为：
 # [天行键](https://github.com/wzxmer/rime-txjx)
