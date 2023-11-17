@@ -2,23 +2,15 @@
 
 [TOC]
 
-### 详细说明--->[点我查看](https://github.com/wzxmer/xkjd6-rime/tree/main/xmjd6#readme)
-
-# 本仓库方案文件已停止更新，分为两版：
-
-# 衍生版为：
+# 方案下载链接🔗：
 # [天行键](https://github.com/wzxmer/rime-txjx)
-# [星猫键道新版](https://github.com/hugh7007/xmjd6-rere)（拥有百万词库）
+# [星猫键道](https://github.com/hugh7007/xmjd6-rere)
 
-### IOS输入法app推荐：仓输入法  (已内置)
+### IOS输入法app推荐：仓输入法  (已内置2大方案)
 
 #### QQ交流群：[767053451](http://qm.qq.com/cgi-bin/qm/qr?_wv=1027&k=tHirlU3UbuU-q5CV5PjISeaTNV-eU52L&authKey=g9ePWYWWN7YmYMWk%2FrJ%2BJIgO0oDV0oPRfY3CHZxEzHjgzlzYlLrxFna6CFVCzYNH&noverify=0&group_code=767053451) 
 
 #### TG群：[点我加入](https://t.me/+QrtkrWwmTdRkMWY9)
-
-# 方案下载：[下载](https://github.com/wzxmer/xkjd6-rime/releases/)
-
-### 注意！本教程方案为PC端手机端通用，rime两个皮肤(上方weasel.custom.yaml文件自行单独下载)黑白色
 
 # 一、关于名称
 
