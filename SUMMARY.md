@@ -1,6 +1,6 @@
 # Table of contents
 
-* [星空键道](README.md)
+* [星空键道](Introduction.md)
 * [键道入门](learn/layouts.md)
   * [键位分布](learn/layouts.md)
   * [音码](learn/phonetics-rules.md)
