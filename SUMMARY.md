@@ -1,12 +1,13 @@
 # Table of contents
 
 * [星空键道](Introduction.md)
-* [入门键道](learn/layouts.md)
-  * [键位分布](learn/layouts.md)
+* [入门键道](primary/layouts.md)
+  * [键位分布](primary/layouts.md)
   * 简字
   * [二字词](start-xkjd/characters.md)
   * [单字](start-xkjd/phrases.md)
   * 多字词
+  * 心得
 * [深入键道](start-xkjd/README.md)
   * [音码](learn/phonetics-rules.md)
   * [形码](learn/stroke-rules.md)
