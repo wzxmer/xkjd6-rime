@@ -1,7 +1,7 @@
 # Table of contents
 
 * [星空键道](README.md)
-* [键道入门](learn/README.md)
+* [键道入门](learn/layouts.md)
   * [键位分布](learn/layouts.md)
   * [音码](learn/phonetics-rules.md)
   * [形码](learn/stroke-rules.md)
