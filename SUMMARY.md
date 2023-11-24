@@ -1,25 +1,23 @@
 # Table of contents
 
-* [星空键道](Introduction.md)
+* [星空键道](README.md)
 * [入门键道](primary/layouts.md)
   * [键位分布](primary/layouts.md)
-  * 简字
-  * [二字词](start-xkjd/characters.md)
-  * [单字](start-xkjd/phrases.md)
-  * 多字词
-  * 心得
-* [深入键道](start-xkjd/README.md)
-  * [音码](learn/phonetics-rules.md)
-  * [形码](learn/stroke-rules.md)
-  * 飞键
-* [键道特性](advance-in-xkjd/top-up.md)
-  * [顶功（上屏）](advance-in-xkjd/top-up.md)
-  * [特殊编码](master-xkjd/extra-code.md)
-  * [特殊符号](master-xkjd/extra-symbols.md)
-  * [特殊功能](master-xkjd/extra-functions.md)
-* [方案选择]()
-  * 星空键道
-  * 天行键
-  * 星猫键道
-
-
+  * [简字](layouts/jian-zi.md)
+  * [二字词](layouts/er-zi-ci.md)
+  * [单字](layouts/dan-zi.md)
+  * [多字词](layouts/duo-zi-ci.md)
+  * [心得](layouts/xin-de.md)
+* [深入键道](shen-ru-jian-dao/README.md)
+  * [音码](shen-ru-jian-dao/yin-ma.md)
+  * [形码](shen-ru-jian-dao/xing-ma.md)
+  * [飞键](shen-ru-jian-dao/fei-jian.md)
+* [键道特性](jian-dao-te-xing/README.md)
+  * [顶功（上屏）](jian-dao-te-xing/README.md)
+  * [特殊编码](jian-dao-te-xing/te-shu-bian-ma.md)
+  * [特殊符号](jian-dao-te-xing/te-shu-fu-hao.md)
+  * [特殊功能](jian-dao-te-xing/te-shu-gong-neng.md)
+* [方案选择](<README (1).md>)
+  * [星空键道](fang-an-xuan-ze/xing-kong-jian-dao.md)
+  * [天行键](fang-an-xuan-ze/tian-hang-jian.md)
+  * [星猫键道](fang-an-xuan-ze/xing-mao-jian-dao.md)
