@@ -1,6 +1,6 @@
 # Table of contents
 
-* [星空键道](primary.md)
+* [星空键道](synopsis.md)
 * [入门键道](primary/layouts.md)
   * [键位分布](primary/layouts.md)
   * [简字](layouts/jian-zi.md)
@@ -17,7 +17,7 @@
   * [特殊编码](feature/te-shu-bian-ma.md)
   * [特殊符号](feature/te-shu-fu-hao.md)
   * [特殊功能](feature/te-shu-gong-neng.md)
-* [方案选择](options/xing-kong-jian-dao.md)
-  * [星空键道](options/xing-kong-jian-dao.md)
+* [方案选择](options/tian-hang-jian.md)
   * [天行键](options/tian-hang-jian.md)
+  * [星空键道](options/xing-kong-jian-dao.md)
   * [星猫键道](options/xing-mao-jian-dao.md)
