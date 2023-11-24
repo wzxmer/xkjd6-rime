@@ -1,6 +1,6 @@
 # Table of contents
 
-* [星空键道](synopsis.md)
+* [星空键道](README.md)
 * [入门键道](primary/layouts.md)
   * [键位分布](primary/layouts.md)
   * [简字](layouts/jian-zi.md)
