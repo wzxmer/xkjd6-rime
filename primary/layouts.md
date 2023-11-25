@@ -20,7 +20,7 @@ description: 大道三千，键道为一。浩瀚星辰，无所畏惧
 
 ​	示例：hao  →声母：h     韵母：ao
 
-​			   shuang  →声母：sh      韵母：uang	
+​				shuang  →声母：sh      韵母：uang	
 
 {% endhint %}
 
