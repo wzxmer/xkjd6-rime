@@ -1,8 +1,7 @@
 # Table of contents
 
 * [星空键道](README.md)
-* [入门键道](primary/term.md)
-  * [常用术语（小白必看）](primary/term.md)
+* [入门键道](primary/layouts.md)
   * [键位分布](primary/layouts.md)
   * [简字](layouts/jian-zi.md)
   * [二字词](layouts/er-zi-ci.md)
