@@ -1,6 +1,5 @@
 # Table of contents
 
-* [星空键道](README.md)
 * [快速入门](primary/layouts.md)
   * [1.键位分布](primary/layouts.md)
   * [2.简字](primary/jian-zi.md)
@@ -12,6 +11,7 @@
   * [天行键](options/tian-hang-jian.md)
   * [星空键道](options/xing-kong-jian-dao.md)
   * [星猫键道](options/xing-mao-jian-dao.md)
+* [星空键道简介](README.md)
 * [深入键道](advanced/yin-ma.md)
   * [音码](advanced/yin-ma.md)
   * [形码](advanced/xing-ma.md)
