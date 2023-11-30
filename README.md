@@ -1,4 +1,4 @@
-## 键道教程新版：https://ymfe.gitbook.io/jd6
+## 键道教程新版：https://ymfe.gitbook.io/jd6  (逐步更新中)
 
 # 方案下载链接🔗：
 - # [天行键](https://github.com/wzxmer/rime-txjx)
