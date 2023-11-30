@@ -4,6 +4,28 @@
 
 也就是平常称作的**打词**。
 
-**规则：**
+**核心思想：以双拼编码为基础，如果没有出你要打的词，就用笔画继续拆解。**
+
+{% endhint %}
+
+## 1.双拼为主
+
+![xkjd-qwerty](D:\GithubProject\xkjd6-rime\.gitbook\assets\xkjd-qwerty.png)
+
+键道6二字词码长最长为6码，常用词4码，直接以双拼编码就能打出来，例如：
+
+![Example01](D:\GithubProject\xkjd6-rime\.gitbook\assets\Example01.png)
+
+## 2.形为辅
+
+如果首选不是你要的词，那么再加以笔画拆解
+
+{% hint style="info" %}
+
+规则：双拼编码+第一个字第一笔
+
+​			或者
+
+​			双拼编码+第一个字第一笔+第二个字第一笔
 
 {% endhint %}
