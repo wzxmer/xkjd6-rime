@@ -14,7 +14,7 @@
 
 键道6二字词码长最长为6码，常用词4码，直接以双拼编码就能打出来，例如：
 
-![Example01](../.gitbook/assets/Example01.png)
+![](../.gitbook/assets/Example01.png)
 
 ## 2.形为辅
 
