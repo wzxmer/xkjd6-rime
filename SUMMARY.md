@@ -6,7 +6,7 @@
   * [3.二字词](primary/er-zi-ci.md)
   * [4.单字](primary/dan-zi.md)
   * [5.多字词](primary/duo-zi-ci.md)
-  * [6.心得](primary/xin-de.md)
+  * [6.总结](primary/summarize.md)
 * [方案选择](options/tian-hang-jian.md)
   * [天行键](options/tian-hang-jian.md)
   * [星空键道](options/xing-kong-jian-dao.md)
