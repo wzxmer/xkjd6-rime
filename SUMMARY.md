@@ -3,7 +3,7 @@
 * [快速入门](primary/layouts.md)
   * [1.键位分布](primary/layouts.md)
   * [2.双拼为主](primary/2.md)
-  * [3.二字词](primary/er-zi-ci.md)
+  * [3.形为辅](primary/er-zi-ci.md)
   * [4.单字](primary/dan-zi.md)
   * [5.全码](primary/quan-ma.md)
   * [6.多字词](primary/duo-zi-ci.md)
