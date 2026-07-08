@@ -1,4 +1,4 @@
-## 键道教程新版：https://ymfe.gitbook.io/jd6  (暂缓更新)
+## 各类大模型特惠推荐：https://fcodex.top/register?aff=VYQAWUDAQGDR  包售后包稳定（本人也使用）
 
 # 方案下载链接🔗：
 - # [天行键](https://github.com/wzxmer/rime-txjx)
